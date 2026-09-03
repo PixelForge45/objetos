@@ -3,6 +3,12 @@ const cliente = {
     idade:23,
     email:"Joao@firma.com",
     telefone:["115555550", "114444440"],
+    saldo: 200
+    efetuaPagamento: function (valor) {
+        if (valor > this.valor) {
+            console.log("Saldo Insulficiente")
+        }
+    }
 };
 
 cliente.enderecos = [
