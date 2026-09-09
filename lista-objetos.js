@@ -23,5 +23,5 @@ const listadeapartamentos = cliente.enderecos.filter(
     (endereco) => endereco.apartamento === true)
  
 
-    console.log(listadeapartamentos);
+    const listaApenasApartamentento = cliente.endereco.filter;
 
