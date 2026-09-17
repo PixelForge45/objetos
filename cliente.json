@@ -1,0 +1,11 @@
+{
+    "nome": "João",
+    "email": "joao@example.com",
+    "telefone": ["11223344", "11922334453"],
+    "endereco": {
+        "rua": "R. joseph climber",
+        "numero": 1337,
+        "apartamento": true,
+        "complemento": "ap 934"
+    }
+}
